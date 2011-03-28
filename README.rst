@@ -1,6 +1,9 @@
-====================
-Django user profiles
-====================
+==================
+django-la-profiles
+==================
+
+*This is a fork of James Bennett's django-profiles app, with the additions
+of a test project, tests, and sphinxified documentation.*
 
 This is a fairly simple user-profile management application for
 Django_, designed to make the management of site-specific user
