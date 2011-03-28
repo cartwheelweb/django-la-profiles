@@ -14,7 +14,7 @@ from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.views.generic.list_detail import object_list
 
-from profiles import utils
+from la_profiles import utils
 
 
 def create_profile(request, form_class=None, success_url=None,

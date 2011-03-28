@@ -42,10 +42,10 @@ merely to store user preferences this can usually be omitted.
 Installation
 ============
 
-In order to use django-profiles, you will need to have a
+In order to use django-la-profiles, you will need to have a
 functioning installation of Django 1.0 or newer.
 
-There are three basic ways to install django-profiles: automatically
+There are three basic ways to install django-la-profiles: automatically
 installing a package using Python's package-management tools, manually
 installing a package, and installing from a Mercurial checkout.
 
@@ -53,7 +53,7 @@ installing a package, and installing from a Mercurial checkout.
 Using a package-management tool
 -------------------------------
 
-The easiest way by far to install django-profiles and most other
+The easiest way by far to install django-la-profiles and most other
 interesting Python software is by using an automated
 package-management tool, so if you're not already familiar with the
 available tools for Python, now's as good a time as any to get
@@ -63,7 +63,7 @@ The most popular option currently is `easy_install`_; refer to its
 documentation to see how to get it set up. Once you've got it, you'll
 be able to simply type::
 
-    easy_install django-profiles
+    easy_install django-la-profiles
 
 And it will handle the rest.
 
@@ -72,7 +72,7 @@ prefer for Python package management) is `pip`_. Once again, you'll
 want to refer to its documentation to get up and running, but once you
 have you'll be able to type::
 
-    pip install django-profiles
+    pip install django-la-profiles
 
 And you'll be done.
 
@@ -81,16 +81,16 @@ Manually installing the 0.2 package
 -----------------------------------
 
 If you'd prefer to do things the old-fashioned way, you can manually
-download the `django-profiles 0.2 package`_ from the Python
+download the `django-la-profiles 0.2 package`_ from the Python
 Package Index. This will get you a file named
-"django-profiles-0.2.tar.gz" which you can unpack (double-click on
+"django-la-profiles-0.2.tar.gz" which you can unpack (double-click on
 the file on most operating systems) to create a directory named
-"django-profiles-0.2". Inside will be a script named "setup.py";
+"django-la-profiles-0.2". Inside will be a script named "setup.py";
 running::
 
     python setup.py install
 
-will install django-profiles (though keep in mind that this
+will install django-la-profiles (though keep in mind that this
 defaults to a system-wide installation, and so may require
 administrative privileges on your computer).
 
@@ -99,23 +99,23 @@ Installing from a Mercurial checkout
 ------------------------------------
 
 If you have `Mercurial`_ installed on your computer, you can also
-obtain a complete copy of django-profiles by typing::
+obtain a complete copy of django-la-profiles by typing::
 
-    hg clone http://bitbucket.org/ubernostrum/django-profiles/
+    hg clone http://bitbucket.org/ubernostrum/django-la-profiles/
 
-Inside the resulting "django-profiles" directory will be a
+Inside the resulting "django-la-profiles" directory will be a
 directory named "profiles", which is the actual Python module for
 this application; you can symlink it from somewhere on your Python
 path. If you prefer, you can use the setup.py script in the
-"django-profiles" directory to perform a normal installation, but
+"django-la-profiles" directory to perform a normal installation, but
 using a symlink offers easy upgrades: simply running ``hg pull -u``
-inside the django-profiles directory will fetch updates from the
+inside the django-la-profiles directory will fetch updates from the
 main repository and apply them to your local copy.
 
 
 .. _easy_install: http://peak.telecommunity.com/DevCenter/EasyInstall
 .. _pip: http://pypi.python.org/pypi/pip/
-.. _django-profiles 0.2 package: http://pypi.python.org/pypi/django-profiles/0.2
+.. _django-la-profiles 0.2 package: http://pypi.python.org/pypi/django-la-profiles/0.2
 .. _Mercurial: http://www.selenic.com/mercurial/wiki/
 
 
@@ -193,5 +193,5 @@ Head over to this application's `project page on Bitbucket`_ and
 check `the issues list`_ to see if it's already been reported. If not,
 open a new issue and I'll do my best to respond quickly.
 
-.. _project page on Bitbucket: http://www.bitbucket.org/ubernostrum/django-profiles/overview/
-.. _the issues list: http://www.bitbucket.org/ubernostrum/django-profiles/issues/
+.. _project page on Bitbucket: http://www.bitbucket.org/ubernostrum/django-la-profiles/overview/
+.. _the issues list: http://www.bitbucket.org/ubernostrum/django-la-profiles/issues/
